@@ -1,0 +1,235 @@
+/* plus-jakarta-sans-regular - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/plus-jakarta-sans-v8-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* plus-jakarta-sans-500 - latin_latin-ext */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/plus-jakarta-sans-v8-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */  
+  }
+
+  /*gilroy-semibold */
+  @font-face{
+    font-display: swap;
+    font-family: 'Gilroy-SemiBold';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Gilroy-Semibold.woff2') format('woff2'),
+         url('../fonts/Gilroy-Semibold.woff') format('woff');
+  }
+
+  /* cabinetgrotesk-medium*/
+  @font-face {
+    font-display: swap;
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/CabinetGrotesk-Medium.woff2') format('woff2'),
+         url('../fonts/CabinetGrotesk-Medium.woff') format('woff');
+  }
+
+/* manrope-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/manrope-v14-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /*gliroy-medium*/
+@font-face{
+    font-display: swap;
+    font-family: "Gliroy";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+         url('../fonts/Gilroy-Medium.woff') format('woff');
+}
+
+  /* inter-600 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-v12-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    color: #121212;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.wrapper{
+    max-width: 1357px;
+    margin: 0 auto;
+}
+.logo__title{
+    color: #121212;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    float: right;
+    
+}
+.scroll{
+    overflow: scroll;
+    height: 300%;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: .2s linear;
+    padding-bottom: 20px;
+    z-index: 999;
+    margin-top: -38px;
+}
+
+.header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+
+.header__list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.header__link{
+    color: #121212;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.header__item{
+    margin-left: 42px;
+    align-items: center;
+}
+
+.header__item:last-child{
+    margin-right: 0;
+}
+
+.header__link:hover, .header__link:focus, .header__link:active{
+    opacity: .75;
+}
+
+.login-buton__submit{
+    display: inline-flex;
+    padding: 11px 22px 11px 21px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #121212;
+    color: white;
+    margin-right: 55px;
+    margin-top: 32.51px;
+}
+
+.serf__card-thumb{
+    position: relative;
+    border: none;
+    border-radius: 20px;
+    margin-left: 90px;
+    color:#121212, #12121200;
+    margin-top: 136px;
+    width: 600px;
+    height: 271px;
+    flex-shrink: 0;
+    background: linear-gradient(134deg, rgba(18, 18, 18, 0.30) 0%, rgba(18, 18, 18, 0.00) 100%);
+}
+
+.discount__card-title{
+    color: #FCFCFC;
+    orientation:auto;
+    font-family: 'Manrope';
+    font-size: 52px;
+    font-style: normal;
+    position: absolute;
+    font-weight: 700;
+    line-height: normal;
+    bottom: 130px;
+    margin-top: 236px;
+    margin-left: 144.5px;
+    margin-right: 44.5px;
+    margin-bottom: 195px;
+}
+
+.surfing__spot-title{
+    margin-left: 108.03px;
+    margin-top: 54px;
+    margin-right: 1199.97px;
+    margin-bottom: 28.56px;
+    color: #0E33F0;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.nice{
+    color: #121212;
+    font-family: Manrope;
+    margin-top: 20.56px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.surfing__workout{
+color: #121212;
+font-family: Manrope;
+margin-top: 20.56px;
+font-size: 64px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 40.84px;
+margin-top: 14px;
+}
+
+/*.surfing-workout__desc{
+color: rgba(18, 18, 18, 0.50);
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%;
+margin-top: 40.84px;
+margin-bottom: 0.49px;
+margin-left: 90.3px;
+margin-right: 766.97px;
+}
