@@ -1,0 +1,335 @@
+/* plus-jakarta-sans-regular - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/plus-jakarta-sans-v8-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* plus-jakarta-sans-500 - latin_latin-ext */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/plus-jakarta-sans-v8-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */  
+  }
+
+  /*gilroy-semibold */
+  @font-face{
+    font-display: swap;
+    font-family: 'Gilroy-SemiBold';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Gilroy-Semibold.woff2') format('woff2'),
+         url('../fonts/Gilroy-Semibold.woff') format('woff');
+  }
+
+  /* cabinetgrotesk-medium*/
+  @font-face {
+    font-display: swap;
+    font-family: 'Cabinet Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/CabinetGrotesk-Medium.woff2') format('woff2'),
+         url('../fonts/CabinetGrotesk-Medium.woff') format('woff');
+  }
+
+/* manrope-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/manrope-v14-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /*gliroy-medium*/
+@font-face{
+    font-display: swap;
+    font-family: "Gliroy";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+         url('../fonts/Gilroy-Medium.woff') format('woff');
+}
+
+  /* inter-600 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-v12-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    color: #121212;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.wrapper{
+    max-width: 1357px;
+    margin: 0 auto;
+}
+.logo__title{
+    color: #121212;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    float: right;
+    
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: .2s linear;
+    padding-bottom: 20px;
+    z-index: 999;
+    margin-top: -38px;
+}
+
+.header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+
+.header__list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.header__link{
+    color: #121212;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.header__item{
+    margin-left: 42px;
+    align-items: center;
+}
+
+.header__item:last-child{
+    margin-right: 0;
+}
+
+.header__link:hover, .header__link:focus, .header__link:active{
+    opacity: .75;
+}
+
+.login-buton__submit{
+    display: inline-flex;
+    padding: 11px 22px 11px 21px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #121212;
+    color: white;
+    margin-right: 55px;
+    margin-top: 32.51px;
+}
+/*HEADER ENDS*/
+
+/*MAIN*/
+.serf__card-thumb{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    position: relative;
+    border: none;
+    border-radius: 20px;
+    margin-left: 90px;
+    color:#121212, #12121200;
+    margin-top: 136px;
+    width: 600px;
+    height: 271px;
+    flex-shrink: 0;
+    background: linear-gradient(134deg, rgba(18, 18, 18, 0.30) 0%, rgba(18, 18, 18, 0.00) 100%);
+}
+
+.first__frame-pic{
+    width: 100%;
+    transition: .15s all;
+}
+.first__frame-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
+/*.first__frame{
+    background: url(../img/png/back1.png) no-repeat;
+}
+*/
+
+.serf__card-thumb{
+    grid-column: span 1;
+    
+}
+
+.serf__card-second{
+    margin-bottom: auto;
+    margin-top: 136px;
+    width: 620px;
+    height: 781px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    flex-shrink: 0;
+}
+
+.surfing__spot-title{
+    color: #0E33F0;
+    display: inline-flex;
+    padding: 8px 18px;
+    align-items: flex-start;
+    gap: 8px;
+    line-height: normal;
+    margin-left: 108.03px;
+    margin-top: 54px;
+    margin-right: 119.97px;
+    margin-bottom: 20.56px;
+    color: #0E33F0;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 4px;
+    background: rgba(13, 50, 239, 0.10);
+    line-height: normal;
+}
+
+.discount__card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 44.46px;
+    
+}
+.discount__card-title{
+    color: #FCFCFC;
+    orientation:auto;
+    font-family: 'Manrope';
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    bottom: 100px;
+    top: 236px;
+    left: 146.5px;
+    right: 100px;
+}
+
+.nice{
+    color: #121212;
+    font-family: 'Manrope';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 90.03px;
+}
+
+.surfing__workout{
+    color: #121212;
+    font-family: 'Manrope';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 90.03px;
+}
+
+.surfing__workout-desc{
+    color: rgba(18, 18, 18, 0.50);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+    margin-top: 40.84px;
+    margin-left: 90.3px;
+    margin-right: 36.97px;
+    margin-bottom: 65px;
+}
+
+.book__now-submit{
+    height: 56px;
+    width: 240px;
+    margin-left: 90.3px;
+    margin-right: 1119.97px;
+    margin-top: -6%;
+    display: inline-flex;
+    padding: 10px 20px 10px 10px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 100px;
+    background: var(--blue, linear-gradient(135deg, #3857F6 0%, #0B30EF 100%));
+    color: #FCFCFC;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%; /* 36px */
+    
+}
+
+.book__now-pic{
+    border-radius: 100px;
+    background: #230F8A;
+    color: rgba(35, 15, 138, 1) rgba(252, 252, 252, 1);
+    display: flex;
+    width: 36px;
+    height: 36px;
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 22px;
+}
+
+.book__now-name{
+margin-left: -24px;
+}
+
+.arrow__down-pic{
+    color: #FCFCFC;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 0.8%;
+    margin-bottom: 14.83px;
+    width: 24px;
+    height: 24px;
+    transform: rotate(360deg);
+    justify-content: center;
+}
+
+/*.serf__preview{
+    margin-bottom: 10px;    
+}
