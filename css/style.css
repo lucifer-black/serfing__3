@@ -47,7 +47,7 @@
   /*gliroy-medium*/
 @font-face{
     font-display: swap;
-    font-family: "Gliroy";
+    font-family: "Gliroy-Medium";
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
@@ -191,7 +191,6 @@ body{
 
 .serf__card-thumb{
     grid-column: span 1;
-    
 }
 
 .serf__card-second{
@@ -314,7 +313,7 @@ body{
 }
 
 .book__now-name{
-margin-left: -24px;
+    margin-left: -24px;
 }
 
 .arrow__down-pic{
@@ -330,6 +329,732 @@ margin-left: -24px;
     justify-content: center;
 }
 
-/*.serf__preview{
-    margin-bottom: 10px;    
+.serfman-third{
+    background: lightgray 50% / cover no-repeat;
+    width: 1438px;
+    height: 374px;
+    top: 1073.3515625px;
+    border: 1px 0px 1px 0px;
+    border-top: 1px solid #B3B3B3;
+    border-bottom: 1px solid #B3B3B3;
+    background: rgba(14, 51, 240, 0.10);
+}
+
+/*Zacky Yondaime*/
+.zack__name{
+    color: #121212;
+    orientation:auto;
+    font-family: 'Manrope';
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    bottom: 1cm;
+    top: -20%;
+    left: -25%;
+    right: -2000%;
+}
+.zack__sur{
+    grid-column: span;
+    color: #121212;
+    orientation:auto;
+    font-family: 'Manrope';
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    bottom: 230px;
+    top: -20%;
+    left: 10px;
+    right: -2000%;
+}
+
+.third__serf-card{
+    width: 1230px;
+    height: 374px;
+    margin-left: -100px;
+}
+
+.athlete{
+    color: rgba(18, 18, 18, 0.50);
+    font-family: 'Manrope';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: -47%;
+    top: 1cm;
+}
+
+.very__happy{
+    margin-left: 46.5%;
+    margin-top: -9%;
+    bottom: 30px;
+    color: rgba(18, 18, 18, 0.70);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 36px */
+}
+
+.surfer__disap{
+    margin-left: 46.5%;
+    margin-top: 0%;
+    bottom: 30px;
+    color: rgba(18, 18, 18, 0.70);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 36px */
+}
+
+.map{
+    width: 1440px;
+    height: 675px;
+    top: 1471.3515625px;
+    border: 1px 0px 1px 0px;
+    color: linear-gradient(0deg, #B3B3B3, #B3B3B3), linear-gradient(0deg, #EFEFEF, #EFEFEF);
+    border-width: 1px, 0px, 1px, 0px;
+    border-style: solid;
+    border-color: rgba(179, 179, 179, 1);
+}
+
+.map__pic{
+    width: 850px;
+    height: 530px;
+    top: 70.14px;
+    left: 277px;
+    position: relative;
+}
+
+.location{
+    width: 268.717px;
+    height: 310.35px;
+    flex-shrink: 0;
+    top: 49.61px;
+    left: -54.84px;
+    opacity: 0.05000000074505806px;
+    range: -0 deg;
+}
+
+.find__us{
+    width: 419px;
+    height: 87px;
+    font-family: 'Manrope';
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 87px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 99px;
+    margin-top: -25%;
+}
+
+.these__places{
+    width: 419px;
+    height: 87px;
+    font-family: 'Manrope';
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 87px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 99px;
+    margin-top: -1.5%;
+}
+
+.various__parts
+{
+    width: 631.115px;
+    color: rgba(18, 18, 18, 0.50);
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 36px */
+    margin-top: 0.5%;
+    margin-left: 102.41px;
+}
+
+.beach__locations{
+    width: 631.115px;
+    color: rgba(18, 18, 18, 0.50);
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 36px */
+    margin-left: 102.41px;
+    margin-top: 0%;
+}
+
+.best__packages{
+    width: 1440px;
+    flex-shrink: 0;
+}
+
+.ship__pic{
+    border-radius: 24px;
+    width: 600px;
+    height: 406px;
+    flex-shrink: 0;
+    background: var(--blue, linear-gradient(135deg, #3857F6 0%, #0B30EF 100%));
+    flex-shrink: 0;
+    margin-top: 115.65px;
+    margin-left: 90px;
+    margin-bottom: 151.6px;
+    margin-right: 76.93px;
+}
+
+.bestpackages-title{
+    color: #121212;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Manrope;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 767px;
+    margin-top: -40%;
+}
+
+.packages__for-you{
+    margin-top: 7.21px;
+    margin-bottom: -2%;
+    margin-left: 767px;
+    color: var(--text-second, #B8B9BF);
+    font-family: 'Manrope';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}*
+
+.text__01{
+    margin-left: 767px;
+    margin-top: 50.33px;
+    margin-bottom: 27%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #ACD3EC;
+    color: rgba(172, 211, 236, 1) rgba(255, 255, 255, 1);
+    height: 33px;
+    width: 72px;
+    color: #FFF;
+    text-align: center;
+    font-family: Cabinet Grotesk;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.accompanied{
+    margin-top: -24%;
+    margin-left: 767px;
+    color: #1D1D1D;
+    font-family: Manrope;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tour__guide{
+    color: #1D1D1D;
+    font-family: Manrope;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 767px;
+    
+}
+
+.professional{
+    margin-left: 767px;
+    color: var(--text-second, #B8B9BF);
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 38.4px */
+    margin-top: 1%;
+}
+
+.beach{
+    margin-left: 767px;
+    color: var(--text-second, #B8B9BF);
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 38.4px */
+}
+
+.bestpackages-title2{
+    margin-top: 151.72px;
+    margin-left: 77.75px;
+    color: #121212;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Manrope';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.airplane__pic{
+    width: 600px;
+    height: 405px;
+    margin-right: 160px;
+    margin-left: 680px;
+    margin-top: -22%;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: var(--blue, linear-gradient(135deg, #3857F6 0%, #0B30EF 100%));
+}
+
+.packages__2{
+    color: var(--text-second, #B8B9BF);
+    text-align: center;
+    font-family: 'Manrope';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: -67%;
+    margin-top: 24.31px;
+}
+
+.text__02{
+    margin-top: 98px;
+    margin-left: 5.5%;
+    display: inline-flex;
+    padding: 4px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #A6B2F2;
+    color: #FFF;
+    font-family: Cabinet Grotesk;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    bottom: 32px;
+}
+
+.shuttle{
+    color: #1D1D1D;
+    font-family: Manrope;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 32px;
+    margin-left: 5.5%;
+}
+
+.pick__up{
+    color: var(--text-second, #B8B9BF);
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 38.4px */
+    margin-left: 5.5%;
+}
+
+.surfing__workout2{
+    color: #121212;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Manrope;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 233.5px;
+    margin-right: 233.5px;
+    margin-top: 163.09px;
+}
+
+.with__Peselancar{
+    color: #121212;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Manrope;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 481px;
+    margin-bottom: 80.76px;
+}
+
+.client__first{
+    width: 1440px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.awesome__client{
+    color: #121212;
+    font-family: Manrope;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 64.4px */
+    text-transform: capitalize;
+    margin-left: 495px;
+}
+
+.general{
+    margin-top: 150.9px;
+    margin-left: 130px;
+    color: #101010;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 25.2px */
+}
+
+.typical{
+    color: #101010;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 25.2px */
+    margin-left: 133px;
+    bottom: 202.21px;
+}
+
+.sit__back{
+    margin-bottom: 202.21px;
+    margin-left: 349px;
+    margin-top: -3.5%;
+    color: #101010;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 25.2px */
+}
+
+.bathrooms{
+    margin-bottom: 202.21px;
+    margin-left: -40%;
+    margin-top: -14%;
+    color: #101010;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 25.2px */
+}
+
+.handless{
+    margin-bottom: 202.21px;
+    margin-left: -8%;
+    margin-top: -18%;
+    color: #101010;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 25.2px */
+}
+
+.start__finish{
+    color: #101010;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 25.2px */
+    margin-bottom: 202.21px;
+    margin-left: -8%;
+    margin-top: -14.05%;
+}
+
+.san__francisco{
+    margin-left: 30%;
+    margin-top: -18%;
+    color: #101010;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 25.2px */
+}
+
+.renovation{
+    color: #101010;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 25.2px */
+    margin-left: 30%;
+}
+
+.echnology{
+    color: #101010;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 25.2px */
+    margin-left: 65%;
+    margin-top: -3.7%;
+}
+
+.renovations{
+    color: #101010;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 25.2px */
+    margin-left: 65%;
+    margin-top: -0.05%;
+}
+
+.last__Peselancar{
+    color: rgba(20, 20, 20, 1);
+    font-family: 'Gilroy-Medium';
+    font-size: 38.813px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 289.2px;
+    margin-left: 130px;
+}
+
+.weekday{
+    color: #162C40;
+    font-family: Gliroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    letter-spacing: 0.2px;
+    margin-top: 113px;
+    margin-left: 130px;
+}
+
+.copyright{
+    color: #162C40;
+    font-family: 'Gliroy-Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    letter-spacing: 0.07px;
+    margin-left: 130px;
+    margin-top: 13px;
+}
+
+.about__us{
+    color: #162C40;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 16px */
+    margin-left: 654px;
+    margin-top: -14%;
+}
+
+.about__pic{
+    width: 10px;
+    height: 10px;
+    margin-left: 731px;
+    margin-top: -3%;
+}
+
+.pricing{
+    color: #162C40;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 16px */
+    margin-left: 857px;
+    margin-top: -2.7%;
+}
+
+.media{
+    color: #162C40;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 16px */
+    margin-left: 1030px;
+    margin-top: -1%;
+}
+
+.contact{
+    margin-left: 1204px;
+    margin-right: 174px;
+    margin-top: -0.4cm;
+    color: #162C40;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 16px */
+}
+
+.project{
+    color: #162C40;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 14px */
+    margin-left: 654px;
+    margin-top: 35px;
+}
+
+.track{
+    color: #162C40;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 14px */
+    margin-left: 654px;
+    margin-top: 20px;
+}
+
+.pricing__ab{
+    color: #162C40;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 14px */
+    margin-left: 654px;
+    margin-top: 20px;
+}
+
+.services__ab{
+    color: #162C40;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 14px */
+    margin-left: 654px;
+    margin-top: 20px;
+}
+
+.professional__worker{
+    color: #162C40;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 14px */
+    margin-left: 654px;
+    margin-top: 20px;
+}
+
+.about__product{
+    color: #162C40;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 14px */
+    margin-left: 857.05px;
+    margin-top: -150px;
+}
+
+.management{
+    color: #162C40;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 14px */
+    margin-left: 857.05px;
+    margin-top: 20px;
+}
+
+.privacy__police{
+    color: #162C40;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 14px */
+    margin-left: 1030px;
+    margin-top: -3.5%;
+}
+
+.development{
+    color: #162C40;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 14px */
+    margin-left: 1030px;
+    margin-top: 20px
+}
+
+.terms__service{
+    color: #162C40;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 14px */
+    margin-left: 1030px;
+    margin-top: 20px;
+}
+
+.number{
+    color: #162C40;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 14px */
+    margin-left: 1204px;
+    margin-top: -6%;
+}
+
+.the__end{
+    color: #8A8A8A;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 25.2px */
+    margin-top: 418px;
+    margin-bottom: 78.11px;
+    margin-left: 357px;
+    margin-right: 356px;
 }
