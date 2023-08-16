@@ -73,16 +73,17 @@ html{
 
 body{
     color: #121212;
-    font-family: Plus Jakarta Sans;
+    font-family: 'Plus Jakarta Sans';
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
 .wrapper{
-    max-width: 1357px;
+    max-width: 1438px;
     margin: 0 auto;
 }
+
 .logo__title{
     color: #121212;
     font-family: 'Gilroy-SemiBold';
@@ -91,7 +92,6 @@ body{
     font-weight: 400;
     line-height: normal;
     float: right;
-    
 }
 
 .header{
@@ -103,6 +103,7 @@ body{
     padding-bottom: 20px;
     z-index: 999;
     margin-top: -38px;
+    flex-wrap: wrap;
 }
 
 .header__wrapper{
@@ -141,6 +142,10 @@ body{
     opacity: .75;
 }
 
+.header__logo{
+margin-left: 53.52px;
+}
+
 .login-buton__submit{
     display: inline-flex;
     padding: 11px 22px 11px 21px;
@@ -150,6 +155,9 @@ body{
     background: #121212;
     color: white;
     margin-right: 55px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
     margin-top: 32.51px;
 }
 /*HEADER ENDS*/
@@ -467,8 +475,7 @@ body{
     margin-top: -1.5%;
 }
 
-.various__parts
-{
+.various__parts{
     width: 631.115px;
     color: rgba(18, 18, 18, 0.50);
     font-family: 'Manrope';
@@ -561,7 +568,7 @@ body{
     margin-top: -24%;
     margin-left: 767px;
     color: #1D1D1D;
-    font-family: Manrope;
+    font-family: 'Manrope';
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -570,7 +577,7 @@ body{
 
 .tour__guide{
     color: #1D1D1D;
-    font-family: Manrope;
+    font-family: 'Manrope';
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -657,7 +664,7 @@ body{
 
 .shuttle{
     color: #1D1D1D;
-    font-family: Manrope;
+    font-family: 'Manrope';
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -668,7 +675,7 @@ body{
 
 .pick__up{
     color: var(--text-second, #B8B9BF);
-    font-family: Manrope;
+    font-family: 'Manrope';
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -679,26 +686,27 @@ body{
 .surfing__workout2{
     color: #121212;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Manrope;
+    font-family: 'Manrope';
     font-size: 64px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     margin-left: 233.5px;
     margin-right: 233.5px;
-    margin-top: 163.09px;
+    margin-top: 193px;
 }
 
-.with__Peselancar{
+.with{
     color: #121212;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Manrope;
+    font-family: 'Manrope';
     font-size: 64px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-left: 481px;
+    text-align: center;
     margin-bottom: 80.76px;
+    margin-left: 233.5px;
 }
 
 .client__first{
@@ -716,6 +724,7 @@ body{
     line-height: 140%; /* 64.4px */
     text-transform: capitalize;
     margin-left: 495px;
+    margin-top: 99px;
 }
 
 .general{
@@ -893,7 +902,7 @@ body{
 
 .pricing{
     color: #162C40;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -904,7 +913,7 @@ body{
 
 .media{
     color: #162C40;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -918,7 +927,7 @@ body{
     margin-right: 174px;
     margin-top: -0.4cm;
     color: #162C40;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -1057,4 +1066,16 @@ body{
     margin-bottom: 78.11px;
     margin-left: 357px;
     margin-right: 356px;
+}
+
+@media (min-width: 150px){
+    .login-buton__submit{
+        width: 12px;
+    }
+}
+
+@media (max-width: 1450px){
+    .login-buton__submit{
+        width: 120px;
+    }
 }
